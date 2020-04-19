@@ -1,0 +1,1 @@
+# Paladins-Bot-Discord-Lolinha
