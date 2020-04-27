@@ -1,0 +1,26 @@
+{
+  "name": "lolinhabot",
+  "version": "1.0.0",
+  "description": "Paladins bot for Discord",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andersonmdev/Paladins-Bot-Discord-Lolinha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andersonmdev/Paladins-Bot-Discord-Lolinha/issues"
+  },
+  "homepage": "https://github.com/Andersonmdev/Paladins-Bot-Discord-Lolinha#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
