@@ -4,7 +4,8 @@
   "description": "Paladins bot for Discord",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +19,12 @@
   },
   "homepage": "https://github.com/Andersonmdev/Paladins-Bot-Discord-Lolinha#readme",
   "dependencies": {
-    "discord.js": "^12.2.0"
+    "discord.js": "^12.2.0",
+    "paladins.js": "^2.2.1"
   },
   "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.21.0",
     "nodemon": "^2.0.3"
   }
 }
