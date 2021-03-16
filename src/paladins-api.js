@@ -1,7 +1,6 @@
 const paladinsJs = require('paladins.js');
-const dotenv = require('dotenv');
-
-dotenv.config();
+// const dotenv = require('dotenv');
+// dotenv.config();
 
 const api = new paladinsJs.API({
 	devId: process.env.DEVID,
