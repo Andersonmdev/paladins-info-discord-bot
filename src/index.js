@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
-const dotenv = require('dotenv');
 const fs = require('fs');
+const dotenv = require('dotenv');
+dotenv.config();
 
 const { prefix } = require('../config.json');
 const client = new Discord.Client();
-dotenv.config();
 
 client.commands = new Discord.Collection();
 fs.readdirSync('./src/bot/commands')
