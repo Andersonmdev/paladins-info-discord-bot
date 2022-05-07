@@ -1,3 +1,8 @@
+const moment = require('moment');
+
+const utcDate = new Date().toUTCString();
+const localDate = moment(utcDate).utcOffset('-0300');
+
 module.exports.helpMessage = {
 	color: 0x0099ff,
 	title: `Lolinha commands: :kissing_heart: :kissing_heart:`,
@@ -20,7 +25,7 @@ module.exports.helpMessage = {
 			value: ';match <Player Name> \nAliases: m',
 		},
 	],
-	timestamp: new Date(),
+	timestamp: localDate,
 	footer: {
 		text: 'Feedback in github page: github.com/Andersonmdev/Paladins-Bot-Discord-Lolinha',
 	},

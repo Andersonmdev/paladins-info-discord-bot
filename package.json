@@ -20,6 +20,7 @@
   "homepage": "https://github.com/Andersonmdev/Paladins-Bot-Discord-Lolinha#readme",
   "dependencies": {
     "discord.js": "^12.2.0",
+    "moment": "^2.29.1",
     "paladins.js": "^2.2.1"
   },
   "devDependencies": {
