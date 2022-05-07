@@ -1,4 +1,6 @@
-# Paladins-Bot-Discord-Lolinha
+# Paladins-Bot-Discord
+Show players informations
+Show matches informations
 
 ## Install dependencies
 
