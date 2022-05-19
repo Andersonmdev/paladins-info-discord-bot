@@ -1,6 +1,12 @@
-# Paladins-Bot-Discord
-Show players informations
-Show matches informations
+# Paladins info bot
+
+Discord bot that provides information about the game [***paladins***](https://www.paladins.com/).
+
+#### Informations about:
+ + Show players
+ + Show champions
+ + Show live match
+ + Show match history
 
 ## Install dependencies
 
