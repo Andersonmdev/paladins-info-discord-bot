@@ -1,21 +1,29 @@
 # Paladins Info Bot
 
-Discord bot that provides information about the game [paladins](https://www.paladins.com/).
+A Discord bot designed to provide comprehensive information about the game [Paladins](https://www.paladins.com/).
 
-## Commands:
+## Commands
 
-- Show players stats
-- Show champions information
-- Show live match information
-- Show match history of a player
+- **!stats [playerName]**: Display detailed statistics for a specific player.
+- **!champion [championName]**: Retrieve information about a particular champion.
+- **!live [playerName]**: Show live match information for a player.
+- **!history [playerName]**: Display the match history of a player.
 
-## Install dependencies
+## Installation:
 
-- npm install
+To get started, install the necessary dependencies using:
+
+```bash
+npm install
+```
 
 ## Run development mode
 
-- npm run dev
+To run the bot in development mode, use:
+
+```bash
+npm run dev
+```
 
 ## License
 
